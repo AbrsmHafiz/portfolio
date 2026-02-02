@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Engineering portfolio of Abrisam Hafiz Bin Azhar" />
+  <title>Abrisam Hafiz Bin Azhar | Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="top">
+      <div>
+        <h1>Abrisam Hafiz Bin Azhar</h1>
+        <p class="subtitle">
+          3rd Year MEng Mechanical Engineering, University of Sheffield  
+          (First Class Honours expected 2027)
+        </p>
+        <p class="tagline">
+          Engineering design • Experimental testing • Manufacturing & leadership
+        </p>
+      </div>
+
+      <div class="cta">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="cv/Abrisam_Hafiz_Bin_Azhar_CV.pdf" target="_blank">Download CV</a>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Focus</h3>
+        <p>Thermodynamics, fluid dynamics, mechanical design, testing & analysis.</p>
+      </div>
+      <div class="card">
+        <h3>Highlights</h3>
+        <ul>
+          <li>Blades Sub-team Lead (750 W wind turbine)</li>
+          <li>1st place — Mind the Gap competition</li>
+          <li>FTIR & tribometry railway research</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Tools</h3>
+        <p>Fusion 360 • MATLAB • Excel • Workshop prototyping</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I’m a third-year MEng Mechanical Engineering student at the University of Sheffield with
+      hands-on experience across engineering design, experimental testing, and manufacturing-led
+      projects. I’ve led multidisciplinary teams on real build projects, carried out individual
+      research using FTIR and tribometry for railway engineering applications, and applied
+      test-informed analysis using tools such as MATLAB and Fusion 360. I’m seeking an engineering
+      placement where I can contribute strong fundamentals in thermodynamics, fluid dynamics, and
+      mechanical design, while learning from industry-scale and safety-critical environments.
+    </p>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <article class="project">
+      <h3>Wind Turbine Project (750 W) — Blades Sub-team Lead</h3>
+      <p class="meta">Fusion 360 • Workshop manufacturing • Safety documentation</p>
+      <ul>
+        <li>Led a team of five engineers to manufacture hand-shaped wooden blades from drawings.</li>
+        <li>Created a 3D blade model in Fusion 360 to support dimensional accuracy.</li>
+        <li>Organised weekly meetings, training sessions, and workshop manufacturing.</li>
+        <li>Prepared risk assessments, COSHH documentation, and purchasing paperwork.</li>
+        <li>Delivered blades that mostly met performance targets for a 750 W turbine.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>FTIR Detection of Railway Friction Modifiers</h3>
+      <p class="meta">Individual summer research • FTIR • Tribometry • Excel</p>
+      <ul>
+        <li>Applied friction modifiers to real rail samples using a scaled wheel–rail test rig.</li>
+        <li>Analysed FTIR spectral peaks to detect friction modifiers on rail surfaces.</li>
+        <li>Demonstrated reliable detection at three low application thicknesses.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Mind the Gap — Passive Boarding Aid</h3>
+      <p class="meta">Competition — 1st place • Prototyping • Accessibility</p>
+      <ul>
+        <li>Team leader for a door-integrated rotating boarding platform concept.</li>
+        <li>Designed for passive deployment using door motion.</li>
+        <li>Built a working prototype using 3D printing and wood.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Steam Turbine Blade Tapping Test</h3>
+      <p class="meta">Experimental modal analysis • MATLAB • 73% (First Class)</p>
+      <ul>
+        <li>Performed roving hammer tests and measured FRFs.</li>
+        <li>Extracted natural frequencies, damping ratios, and mode shapes.</li>
+        <li>Used MAC to support recommissioning recommendations.</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <h3>Electric Bicycle Spur Gear Gearbox (250 W)</h3>
+      <p class="meta">Fusion 360 • FEA • Laser-cut acrylic</p>
+      <ul>
+        <li>Designed a spur gear gearbox and conducted FEA on the casing.</li>
+        <li>Manufactured components using laser-cut acrylic.</li>
+        <li>Top 10% class performance for distance travelled in 30 seconds.</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <h2>Experience</h2>
+
+    <article class="experience">
+      <h3>Production Staff — Kitlocker.com</h3>
+      <p class="meta">Jul–Sep 2024 • Aug–Sep 2025</p>
+      <ul>
+        <li>Operated small, medium, and large heat press machines.</li>
+        <li>Managed setup parameters and quality control independently after training.</li>
+        <li>Processed 50–100 custom garments per shift.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>You can add your email and LinkedIn later.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Abrisam Hafiz Bin Azhar</p>
+</footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
